@@ -1,0 +1,95 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`converts basic button using mount 1`] = `
+<LoginForm>
+  <form>
+    <Input
+      className="form-username"
+      name="username"
+      placeholder="Enter your username"
+      type="text"
+      value=""
+    >
+      <input
+        className="form-username"
+        name="username"
+        placeholder="Enter your username"
+        type="text"
+        value=""
+      />
+    </Input>
+    <Input
+      className="form-password"
+      name="username"
+      placeholder="Enter your password"
+      type="password"
+      value=""
+    >
+      <input
+        className="form-password"
+        name="username"
+        placeholder="Enter your password"
+        type="password"
+        value=""
+      />
+    </Input>
+    <Button
+      type="submit"
+    >
+      <button
+        type="submit"
+      >
+        Submit
+      </button>
+    </Button>
+  </form>
+</LoginForm>
+`;
+
+exports[`converts basic button using render 1`] = `
+<form>
+  <input
+    class="form-username"
+    name="username"
+    placeholder="Enter your username"
+    type="text"
+    value=""
+  />
+  <input
+    class="form-password"
+    name="username"
+    placeholder="Enter your password"
+    type="password"
+    value=""
+  />
+  <button
+    type="submit"
+  >
+    Submit
+  </button>
+</form>
+`;
+
+exports[`converts basic button using shallow 1`] = `
+<form>
+  <Input
+    className="form-username"
+    name="username"
+    placeholder="Enter your username"
+    type="text"
+    value=""
+  />
+  <Input
+    className="form-password"
+    name="username"
+    placeholder="Enter your password"
+    type="password"
+    value=""
+  />
+  <Button
+    type="submit"
+  >
+    Submit
+  </Button>
+</form>
+`;
