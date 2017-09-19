@@ -14,7 +14,7 @@
     "babel-preset-react": "^6.24.1",
     "enzyme": "^3.0.0-beta.5",
     "enzyme-adapter-react-16": "^1.0.0-beta.2",
-    "enzyme-to-json": "^3.0.0-beta2",
+    "enzyme-to-json": "^3.0.0-beta5",
     "jest": "^21.1.0",
     "react-test-renderer": "^16.0.0-rc.3"
   },
@@ -23,6 +23,8 @@
     "react-dom": "^16.0.0-rc.3"
   },
   "jest": {
-    "snapshotSerializers": ["enzyme-to-json/serializer"]
+    "snapshotSerializers": [
+      "enzyme-to-json/serializer"
+    ]
   }
 }
